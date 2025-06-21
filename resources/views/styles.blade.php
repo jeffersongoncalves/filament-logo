@@ -1,8 +1,9 @@
 <style>
     .logo-before {
-        display: block;
+        display: flex;
         padding: 0.5rem;
-        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
     }
     @media (min-width: 1024px) {
         .logo-before {
