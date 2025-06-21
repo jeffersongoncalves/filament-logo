@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Filament Logo](https://raw.githubusercontent.com/jeffersongoncalves/filament-logo/1.x/art/jeffersongoncalves-filament-logo.png)
+![Filament Logo](https://raw.githubusercontent.com/jeffersongoncalves/filament-logo/2.x/art/jeffersongoncalves-filament-logo.png)
 
 </div>
 
@@ -24,7 +24,7 @@ This provides consistent branding and navigation across different screen sizes a
 You can install the package via composer:
 
 ```bash
-composer require jeffersongoncalves/filament-logo:^1.0
+composer require jeffersongoncalves/filament-logo:^2.0
 ```
 
 ## Usage
