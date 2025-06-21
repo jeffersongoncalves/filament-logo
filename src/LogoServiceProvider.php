@@ -18,8 +18,8 @@ class LogoServiceProvider extends PackageServiceProvider
 
     public function packageRegistered(): void
     {
-        FilamentView::registerRenderHook(PanelsRenderHook::HEAD_END, fn (): View => view('filament-logo::styles'));
-        FilamentView::registerRenderHook(PanelsRenderHook::TOPBAR_BEFORE, fn (): View => view('filament-logo::logo-before'));
-        FilamentView::registerRenderHook(PanelsRenderHook::TOPBAR_START, fn (): View => view('filament-logo::logo-start'));
+        FilamentView::registerRenderHook(PanelsRenderHook::HEAD_END, fn () => view('filament-logo::styles'));
+        FilamentView::registerRenderHook(PanelsRenderHook::TOPBAR_BEFORE, fn () => view('filament-logo::logo-before'));
+        FilamentView::registerRenderHook(PanelsRenderHook::TOPBAR_START, fn () => view('filament-logo::logo-start'));
     }
 }
