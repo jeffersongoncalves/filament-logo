@@ -15,9 +15,8 @@
 A simple yet effective Filament plugin that automatically adds the Filament logo to your admin panel. This plugin enhances your Filament panel's user experience by displaying the logo in strategic locations:
 
 - On mobile devices, the logo appears at the top of the panel
-- On desktop, the logo shows in the topbar when the sidebar is collapsed
 
-This provides consistent branding and navigation across different screen sizes and sidebar states, with zero configuration required.
+This provides consistent branding and navigation across different screen sizes, with zero configuration required.
 
 ## Installation
 
@@ -32,8 +31,6 @@ composer require jeffersongoncalves/filament-logo:^2.0
 This package automatically adds the Filament logo to your panel in two different scenarios:
 
 1. **Mobile View**: The logo appears at the top of the panel on mobile devices using `PanelsRenderHook::TOPBAR_BEFORE`.
-
-2. **Desktop with Collapsed Sidebar**: The logo appears in the topbar when the sidebar is collapsed on desktop devices using `PanelsRenderHook::TOPBAR_START`.
 
 No additional configuration is required. The package works out of the box after installation.
 
