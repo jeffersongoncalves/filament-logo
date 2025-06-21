@@ -1,4 +1,5 @@
 <?php
+
 namespace JeffersonGoncalves\Filament\Logo;
 
 use Filament\Support\Facades\FilamentView;
