@@ -1,4 +1,4 @@
-<div style="display: block;padding: 0.5rem; @media (min-width: 1024px) {display: none;}">
+<div class="logo-before">
     @if ($homeUrl = filament()->getHomeUrl())
         <a {{ \Filament\Support\generate_href_html($homeUrl) }}>
             <x-filament-panels::logo />
