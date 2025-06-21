@@ -10,7 +10,14 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-logo/fix-php-code-style-issues.yml?branch=master&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-logo/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3A1.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-logo.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-logo)
 
+## Description
 
+A simple yet effective Filament plugin that automatically adds the Filament logo to your admin panel. This plugin enhances your Filament panel's user experience by displaying the logo in strategic locations:
+
+- On mobile devices, the logo appears at the top of the panel
+- On desktop, the logo shows in the topbar when the sidebar is collapsed
+
+This provides consistent branding and navigation across different screen sizes and sidebar states, with zero configuration required.
 
 ## Installation
 
@@ -19,6 +26,16 @@ You can install the package via composer:
 ```bash
 composer require jeffersongoncalves/filament-logo:^1.0
 ```
+
+## Usage
+
+This package automatically adds the Filament logo to your panel in two different scenarios:
+
+1. **Mobile View**: The logo appears at the top of the panel on mobile devices using `PanelsRenderHook::TOPBAR_BEFORE`.
+
+2. **Desktop with Collapsed Sidebar**: The logo appears in the topbar when the sidebar is collapsed on desktop devices using `PanelsRenderHook::TOPBAR_START`.
+
+No additional configuration is required. The package works out of the box after installation.
 
 ## Testing
 

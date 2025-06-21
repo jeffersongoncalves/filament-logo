@@ -1,6 +1,6 @@
 {
     "name": "jeffersongoncalves/filament-logo",
-    "description": "This is a Laravel Filament package that provides a Keyable functionality for web applications.",
+    "description": "A simple yet effective Filament plugin that automatically adds the Filament logo to your admin panel. This plugin enhances your Filament panel's user experience by displaying the logo in strategic locations.",
     "keywords": [
         "jeffersongoncalves",
         "laravel",
