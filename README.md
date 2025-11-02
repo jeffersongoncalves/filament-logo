@@ -1,13 +1,13 @@
 <div class="filament-hidden">
 
-![Filament Logo](https://raw.githubusercontent.com/jeffersongoncalves/filament-logo/2.x/art/jeffersongoncalves-filament-logo.png)
+![Filament Logo](https://raw.githubusercontent.com/jeffersongoncalves/filament-logo/3.x/art/jeffersongoncalves-filament-logo.png)
 
 </div>
 
 # Filament Logo
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/filament-logo.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-logo)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-logo/fix-php-code-style-issues.yml?branch=2.x&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-logo/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3A2.x)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/filament-logo/fix-php-code-style-issues.yml?branch=3.x&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/filament-logo/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3A3.x)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/filament-logo.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/filament-logo)
 
 ## Description
@@ -23,7 +23,7 @@ This provides consistent branding and navigation across different screen sizes, 
 You can install the package via composer:
 
 ```bash
-composer require jeffersongoncalves/filament-logo:^2.0
+composer require jeffersongoncalves/filament-logo:^3.0
 ```
 
 ## Usage
