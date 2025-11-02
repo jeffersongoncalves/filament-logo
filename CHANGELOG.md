@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file.
 
+## 3.0.0 - 2025-11-02
+
+### What's Changed
+
+* Delete .github/FUNDING.yml by @jeffersongoncalves in https://github.com/jeffersongoncalves/filament-logo/pull/3
+* build(deps): bump aglipanci/laravel-pint-action from 2.5 to 2.6 by @dependabot[bot] in https://github.com/jeffersongoncalves/filament-logo/pull/5
+* build(deps): bump actions/checkout from 4 to 5 by @dependabot[bot] in https://github.com/jeffersongoncalves/filament-logo/pull/6
+* build(deps): bump stefanzweifel/git-auto-commit-action from 6 to 7 by @dependabot[bot] in https://github.com/jeffersongoncalves/filament-logo/pull/7
+
+**Full Changelog**: https://github.com/jeffersongoncalves/filament-logo/compare/2.0.4...3.0.0
+
 ## 2.0.4 - 2025-06-21
 
 **Full Changelog**: https://github.com/jeffersongoncalves/filament-logo/compare/2.0.3...2.0.4
