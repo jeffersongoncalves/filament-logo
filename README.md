@@ -19,6 +19,14 @@ A simple yet effective Filament plugin that automatically adds the Filament logo
 
 This provides consistent branding and navigation across different screen sizes and sidebar states, with zero configuration required.
 
+## Version Compatibility
+
+| Plugin Version | Filament Version | PHP Version |
+| -------------- | ---------------- | ----------- |
+| `^3.0`         | `^5.0`           | `^8.2`      |
+| `^2.0`         | `^4.0`           | `^8.2`      |
+| `^1.0`         | `^3.0`           | `^8.2`      |
+
 ## Installation
 
 You can install the package via composer:
