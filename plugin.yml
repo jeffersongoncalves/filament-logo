@@ -11,7 +11,7 @@ description: "Automatically adds the Filament logo to your admin panel in strate
 
 # --- Images ---
 # Anexe os arquivos de imagem junto com este YAML no chat
-image: "jeffersongoncalves-filament-logo.jpg"
+image: "jeffersongoncalves-filament-logo.png"
 thumbnail: ""
 
 # --- Compatibility & Features ---
