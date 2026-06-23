@@ -2,13 +2,11 @@
 
 namespace JeffersonGoncalves\Filament\Logo;
 
-use Filament\Support\Facades\FilamentView;
 use Filament\View\PanelsRenderHook;
-use Illuminate\Contracts\View\View;
+use JeffersonGoncalves\FilamentPluginCore\BasePackageServiceProvider;
 use Spatie\LaravelPackageTools\Package;
-use Spatie\LaravelPackageTools\PackageServiceProvider;
 
-class LogoServiceProvider extends PackageServiceProvider
+class LogoServiceProvider extends BasePackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -19,7 +17,9 @@ class LogoServiceProvider extends PackageServiceProvider
 
     public function packageRegistered(): void
     {
-        FilamentView::registerRenderHook(PanelsRenderHook::HEAD_END, fn (): View => view('filament-logo::styles'));
-        FilamentView::registerRenderHook(PanelsRenderHook::TOPBAR_BEFORE, fn (): View => view('filament-logo::logo-before'));
+        $this->registerRenderHooks([
+            PanelsRenderHook::HEAD_END => 'filament-logo::styles',
+            PanelsRenderHook::TOPBAR_BEFORE => 'filament-logo::logo-before',
+        ]);
     }
 }
