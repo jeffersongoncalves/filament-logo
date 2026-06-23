@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 2.1.0 - 2026-06-23
+
+Refactor onto filament-plugin-core base (registerRenderHooks helper); drop redundant dependencies (provided transitively).
+
 ## 2.0.5 - 2026-03-04
 
 ### Breaking Changes
